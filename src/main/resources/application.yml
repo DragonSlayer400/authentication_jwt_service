@@ -1,0 +1,11 @@
+server:
+  port: 8090
+spring:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/auth_service
+    username: postgres
+    password: 21nr1357
+    driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate.ddl-auto: update
